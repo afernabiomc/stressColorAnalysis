@@ -17,7 +17,7 @@ projectFolder/ 			# Scripts should be run from this folder
 ├── install_r_packages.R 	  # R dependencies
 ├── setup.sh             	  # Setup script (macOS/Linux)
 ├── setup.bat            	  # Setup script (Windows)
-├── naive_bayes_pdfs.txt  	# Naive Bayes pdfs for running the classifier
+├── naive_bayes_pdfs.txt    # Naive Bayes pdfs for running the classifier
 ├── images/              	  # Input images Setup script
 ├── masks/               	  # Output masks (for QC)
 └── results/             	  # Results csv and graph output folder
@@ -26,6 +26,11 @@ projectFolder/ 			# Scripts should be run from this folder
 ## Setup
 Run the setup scripts first to install the dependencies. It will skip any
 you have already installed. This only needs to be run once.
+
+**Install dependencies**:
+   - unix: Run `bash setup.sh`
+   - Windows: Double-click `setup.bat`
+
 
 ## Running the Python Script
 the basic command usage is:
