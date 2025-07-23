@@ -1,25 +1,25 @@
 # Corn Stress Area and Color Analysis
 This is a collection of files and scripts to analyse the stressed to healthy
-leaf area in cold treated (or otherwise stressed corn) and to map the changes 
+leaf area in cold treated (or otherwise stressed corn) and to map the changes
 in colorspace distribution over the span of two different timepoints. The
 python script will identify the healthy and stressed tissue, as well as do
-the area and colorspace analysis. There is a separate R script that will 
+the area and colorspace analysis. There is a separate R script that will
 do the arrow plot showing the shift in A and B values for the control and the
-experimental plants. 
+experimental plants.
 
 ## Folder layout
 projectFolder/ 			# Scripts should be run from this folder
-│
-├── stressColorAnalysis.py      # Main Python script
-├── plot_arrows.R        	# R plotting script
-├── requirements.txt     	# Python dependencies
-├── install_r_packages.R 	# R dependencies
-├── setup.sh             	# Setup script (macOS/Linux)
-├── setup.bat            	# Setup script (Windows)
-├── naive_bayes_pdfs.txt 	# Naive Bayes pdfs for running the classifier
-├── images/              	# Input images Setup script
-├── masks/               	# Output masks (for QC)
-└── results/             	# Results csv and graph output folder
+
+  - stressColorAnalysis.py      # Main Python script
+  - plot_arrows.R        	# R plotting script
+  - requirements.txt     	# Python dependencies
+  - install_r_packages.R 	# R dependencies
+  - setup.sh             	# Setup script (macOS/Linux)
+  - setup.bat            	# Setup script (Windows)
+  - naive_bayes_pdfs.txt 	# Naive Bayes pdfs for running the classifier
+  - images/              	# Input images Setup script
+  - masks/               	# Output masks (for QC)
+  - results/             	# Results csv and graph output folder
 
 ## Setup
 Run the setup scripts first to install the dependencies. It will skip any
@@ -45,7 +45,7 @@ you need to generate the arrow plots is to run
 
 `Rscript arrowPlot.R results/`
 
-(Replace results/ with whatever you chose to name it, if you went with something 
+(Replace results/ with whatever you chose to name it, if you went with something
 other than the defauls. Keep in mind that the `/` at the end is required)
 
 
@@ -56,4 +56,3 @@ These scripts will generate 5 output files (not including the masks).
 3. colorchange_cold.png		# The arrow plot of the cold treated plants
 4. colorchange_control.png	# The arrow plot of the control plants
 5. colorchange_combined.png	# The combined arrow plot showing cold and control
-
