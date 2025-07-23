@@ -1,0 +1,6 @@
+numpy
+plantcv
+opencv-python
+pandas
+matplotlib
+seaborn
