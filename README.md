@@ -8,18 +8,20 @@ do the arrow plot showing the shift in A and B values for the control and the
 experimental plants.
 
 ## Folder layout
+```
 projectFolder/ 			# Scripts should be run from this folder
-
-  - stressColorAnalysis.py      # Main Python script
-  - plot_arrows.R        	# R plotting script
-  - requirements.txt     	# Python dependencies
-  - install_r_packages.R 	# R dependencies
-  - setup.sh             	# Setup script (macOS/Linux)
-  - setup.bat            	# Setup script (Windows)
-  - naive_bayes_pdfs.txt 	# Naive Bayes pdfs for running the classifier
-  - images/              	# Input images Setup script
-  - masks/               	# Output masks (for QC)
-  - results/             	# Results csv and graph output folder
+│
+├── stressColorAnalysis.py  # Main Python script
+├── plot_arrows.R        	  # R plotting script
+├── requirements.txt     	  # Python dependencies
+├── install_r_packages.R 	  # R dependencies
+├── setup.sh             	  # Setup script (macOS/Linux)
+├── setup.bat            	  # Setup script (Windows)
+├── naive_bayes_pdfs.txt  	# Naive Bayes pdfs for running the classifier
+├── images/              	  # Input images Setup script
+├── masks/               	  # Output masks (for QC)
+└── results/             	  # Results csv and graph output folder
+```
 
 ## Setup
 Run the setup scripts first to install the dependencies. It will skip any
