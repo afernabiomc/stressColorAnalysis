@@ -53,7 +53,7 @@ you need to generate the arrow plots is to run
 `Rscript arrowPlot.R results/`
 
 (Replace results/ with whatever you chose to name it, if you went with something
-other than the defauls. Keep in mind that the `/` at the end is required)
+other than the defaults. Keep in mind that the `/` at the end is required)
 
 
 ## Output files
