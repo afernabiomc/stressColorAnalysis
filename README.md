@@ -35,12 +35,12 @@ you have already installed. This only needs to be run once.
 ## Running the Python Script
 the basic command usage is:
 
-`python stressColorAnalysis.py images/`
+`python stressColorAnalysis.py -i images/`
 
 If you want to specify different names for the masks directory and the results
 directory you can do it like so:
 
-`python stressColorAnalysis.py images/ resultsNewName/ masksNewName/`
+`python stressColorAnalysis.py -i images/ -r resultsNewName/ -m masksNewName/`
 
 You do not need to make the results or the mask directories, the script will handle
 that for you. However, any rerun will rewrite the contents of those directories unless

@@ -1,6 +1,4 @@
 library(ggplot2)
-library(patchwork)
-library(ggrepel)
 library(dplyr)
 library(tidyr)
 
