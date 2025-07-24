@@ -7,5 +7,5 @@ pip install -r requirements.txt
 Rscript install_r_packages.R
 
 # Verify installations
-python -c "import plantcv; print('PlantCV installed')"
+python -c "from plantcv import plantcv; print('PlantCV installed')"
 Rscript -e "library(ggplot2); print('ggplot2 installed')"
